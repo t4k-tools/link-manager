@@ -91,4 +91,5 @@ storage/              il file SQLite live (escluso da git, fuori dalla document 
 
 ## Licenza
 
+Distribuito sotto **GNU General Public License v3.0** (GPL-3.0). Vedi [LICENSE](LICENSE).
 Rilasciato per chi potrà trovarlo utile. Senza garanzie.
