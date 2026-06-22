@@ -1,0 +1,6 @@
+# Protezione minima: nega l'accesso diretto ai file di configurazione.
+# Valido solo su Apache. Su altri server e' best effort: la protezione reale
+# resta .gitignore + nessun output prodotto dai file PHP di configurazione.
+<FilesMatch "config\.(local|example)\.php$">
+    Require all denied
+</FilesMatch>

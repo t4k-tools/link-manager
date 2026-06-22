@@ -1,0 +1,59 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+config.local.php
+*.local.php
+link/1/config.local.php
+link/1/*.local.php
+
+# Database and dumps
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db-wal
+*.db-shm
+db/
+db/*.sql
+db/*.dump
+db/*.bak
+
+# Throwaway migration / maintenance scripts (source of truth: database/*.sql)
+db/_migration_*.php
+database/_*.php
+
+# Backups and quarantine
+_quarantine_tranche_1A/
+_quarantine_tranche_1B/
+_quarantine*/
+backup/
+backups/
+*.bak
+*.backup
+
+# Runtime storage (database SQLite live, fuori dalla docroot)
+storage/
+
+# Documentazione interna / operativa: NON pubblicare sul repo pubblico
+# (contiene infrastruttura del server, URL legacy, nome DB reale, audit interno)
+Docs/
+SESSION.md
+
+# Logs and temporary files
+*.log
+logs/
+storage/logs/
+tmp/
+temp/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependencies, if ever introduced
+vendor/
+node_modules/

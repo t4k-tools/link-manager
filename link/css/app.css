@@ -1,0 +1,14 @@
+/* app.css | Versione 1.0 | Ultima modifica: 2026-06-22
+   Stili comuni del Link Manager (estratti dagli stili inline delle pagine). */
+
+/* Contenitore stretto per i form */
+.form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+/* Tabelle: testo allineato a sinistra */
+.table td,
+.table th {
+    text-align: left;
+}
